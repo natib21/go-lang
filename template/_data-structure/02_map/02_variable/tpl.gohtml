@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+    <title>Hello Go</title>
+</head>
+<body>
+<h1>This is Map in template with Go and Key</h1>
+<ul>
+    {{ range $Key,$val := . }}
+    <li>{{$Key}} - {{$val}}</li>
+    {{end}}
+</ul>
+
+</body>
+</html>
