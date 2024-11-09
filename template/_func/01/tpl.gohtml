@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Famous Sages</title>
+</head>
+<body>
+<h1>Famous Sages and Their Mottos</h1>
+<ul>
+    {{range .}}
+        <li>{{uc .Name}} - {{ft .Motto}}</li>
+    {{end}}
+</ul>
+</body>
+</html>
